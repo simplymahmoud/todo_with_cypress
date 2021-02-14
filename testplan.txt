@@ -1,0 +1,60 @@
+Positive;
+1: Test case for check add todo.
+Test Scenario:
+#. go to application page, should succeed
+#. add new todo, should succeed
+#. check save todo successfully, should succeed
+
+
+2: Test case for check edit existing todo.
+Test Scenario:
+#. go to application page, should succeed
+#. add new todo, should succeed
+#. check save todo successfully, should succeed
+#. edit existing todo, should succeed
+#. check save todo successfully, should succeed
+
+
+3: Test case for check mark todo as done.
+Test Scenario:
+#. go to application page, should succeed
+#. add new todo, should succeed
+#. check save todo successfully, should succeed
+#. mark todo as done, should succeed
+
+
+4: Test case for check add multiple todo and delete them.
+Test Scenario:
+#. go to application page, should succeed
+#. add new todo, should succeed
+#. check save todo successfully, should succeed
+#. add new todo, should succeed
+#. check save todo successfully, should succeed
+#. check list has two todos, should succeed
+#. delete both, should succeed
+
+
+Negative;
+1: Test case for check add todo with long text.
+Test Scenario:
+#. go to application page, should succeed
+#. add new todo with long text, should succeed
+#. check save todo successfully, should succeed
+
+2: Test case for check add todo with special chars text.
+Test Scenario:
+#. go to application page, should succeed
+#. add new todo with special chars text, should succeed
+#. check save todo successfully, should succeed
+
+3: Test case for check add todo with empty text.
+Test Scenario:
+#. go to application page, should succeed
+#. add new todo with empty text, should fail
+#. no todo added, should succeed
+
+4: Test case for check add todo with spaces text.
+Test Scenario:
+#. go to application page, should succeed
+#. add new todo with spaces text, should fail
+#. no todo added, should succeed
