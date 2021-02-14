@@ -5,7 +5,7 @@
 2. Install [Cypress](https://docs.cypress.io/guides/getting-started/installing-cypress.html#Install-binary)
 3. Have Chrome installed
 
-## Test Plan: testplan.txt
+## [Test Plan](testplan.txt)
 
 ## __Installing Dependencies__
 1. Install Cybress
