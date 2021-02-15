@@ -1,8 +1,8 @@
  
 /// <reference types="cypress" />
 
-  export function navigate(url) {
-    cy.visit(url)
+  export function navigate() {
+    cy.visit('/')
   }
   
   export function generateRandom() {

@@ -15,7 +15,7 @@ import {
 
   describe('todo actions', () => {
     beforeEach(() => {
-      navigate('https://todomvc.com/examples/angular2/')
+      navigate()
     })
   
     describe('positive tests', () => {
